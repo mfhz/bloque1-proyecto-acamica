@@ -1,3 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+
+
 body {
-    background: slategray;
+    header {
+        border-bottom: 1px solid #EAEAEB;
+        text-align: right;
+        height: 44px;
+        line-height: 44px;
+        box-sizing: border-box;
+
+        .nav {
+            width: 100%;            
+
+            label {
+                cursor: pointer;
+                margin-right: 19px;
+            }
+
+            #toggle {
+                display: none;
+
+                
+                &:checked + nav {
+                    display: block;
+                }
+            }
+
+            nav { 
+                display: none;
+                background: #0000EC;
+
+                ul {
+                    height: 224px;
+                    text-align: left;
+
+                    li {
+                        text-align: left;
+                        line-height: 28px;
+
+                        a {
+                            display: inline-block;
+                            font-size: 16px;
+                            color: #ffffff;
+                            letter-spacing: 0;
+                            text-decoration: none;
+                            margin-left: 16px;
+                            margin-bottom: 24px;                            
+                        }
+                        .list1 {
+                            margin-top: 16px;
+                        }
+                    }                   
+                }
+            }                         
+        }
+    }
+    figure {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 24px;
+        height: 24px;
+        margin: 10px 0 10px 16px;
+    }
+ 
+    
+}
+
+
+@media screen and (min-width: 500px) {
+
+    body {
+        header {
+            border-bottom: 1px solid #EAEAEB;
+            text-align: right;
+            height: 70px;
+            line-height: 70px;
+    
+            .nav {
+    
+                label {
+                    font-size: 26px;
+                    line-height: 70px;
+                    display: none;
+                }      
+                
+                nav {
+                    display: block;
+                    text-align: right;
+
+                    ul {            
+            
+                        li {
+                            display: inline-block;
+                            margin: 0 10px;
+                            line-height: 70px;
+                            border-bottom: none;
+                        }
+                    }            
+                }                
+            }            
+
+        }
+    }  
 }
