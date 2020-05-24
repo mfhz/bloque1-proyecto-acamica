@@ -9,7 +9,7 @@
 
 body {
     header {
-        border-bottom: 1px solid #EAEAEB;
+        // border-bottom: 1px solid #EAEAEB;
         text-align: right;
         height: 44px;
         line-height: 44px;
@@ -69,7 +69,56 @@ body {
         height: 24px;
         margin: 10px 0 10px 16px;
     }
- 
+    .text-section {
+        margin-left: 16px;
+
+        h1 {
+            margin-top: 29px;
+            line-height: 42px;
+            width: 222px;
+            font-size: 36px;
+            font-family: 'IBM Plex Sans';
+            margin-bottom: 16px;
+            color: #060A24;
+            font-weight: normal;
+            letter-spacing: 0;
+
+            span {
+                text-decoration: line-through;
+                font-family: 'IBM Plex Sans';
+            }
+        }
+        p {
+            font-size: 14px;
+            margin-bottom: 36px;
+            width: 288px;
+            height: 66px;
+        }
+        button {
+            width: 288px;
+            height: 48px;
+            padding: 13px 96px;
+            background: #00F3BB;
+            margin-bottom: 24px;
+
+            a {
+                color: #060A24;
+                font-size: 16px;
+                font-family: 'IBM Plex Mono';
+                display: inline-block;
+                line-height: 22px;
+                text-decoration: none;
+                font-weight: 500;
+                &:hover {
+                    color: #ffffff;
+                }
+            }
+            &:hover {
+                background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+            }
+        }
+
+    }
     
 }
 
