@@ -187,6 +187,35 @@ body main {
       height: 243px; }
       body main .guests-section figure img {
         width: inherit; }
+  body main .themes-section {
+    position: relative;
+    top: -70px;
+    margin-top: 48px; }
+    body main .themes-section h2 {
+      width: 288px;
+      line-height: 42px;
+      font-size: 36px;
+      font-family: 'IBM Plex Sans';
+      font-weight: normal;
+      margin-left: 16px; }
+    body main .themes-section .box-themes {
+      margin-top: 24px;
+      margin-bottom: 36px; }
+      body main .themes-section .box-themes figure {
+        width: 100%;
+        height: 130px;
+        padding: 13px 108px; }
+        body main .themes-section .box-themes figure img {
+          width: 104px;
+          height: 104px; }
+      body main .themes-section .box-themes h3 {
+        width: 288px;
+        line-height: 32px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 24px;
+        font-family: 'IBM Plex Sans';
+        font-weight: 500; }
 
 @media screen and (min-width: 500px) {
   body header {
