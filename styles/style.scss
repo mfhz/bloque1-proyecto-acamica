@@ -222,6 +222,30 @@ body {
 
         }
 
+        .guests-section {            
+            position: relative;
+            top: -70px;
+
+            h2 {
+                width: 288px;
+                line-height: 42px;
+                font-size: 36px;
+                font-family: 'IBM Plex Sans';
+                font-weight: normal;
+                margin-left: 16px;
+                margin-bottom: 14px;
+            }
+
+            figure {
+                width: 100%;
+                height: 243px;
+
+                img {
+                    width: inherit;
+                }
+            }
+        }
+
     }
 
     
