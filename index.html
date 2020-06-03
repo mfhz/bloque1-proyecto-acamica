@@ -9,15 +9,20 @@
     <title>Document</title>
 </head>
 <body>       
-    <header>        
-        <div class="nav">
-            <label for="toggle">&#9776</label>
-            <input type="checkbox" name="menu" id="toggle">
-            <nav>
+    <header>
+        <figure>
+            <img src="./images/logo.svg" alt="">
+        </figure>
+        <nav>
+            <div class="menu">
+                <input type="checkbox" id="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
                 <ul>
-                    <li class="list1">
-                        <a class="list1" href="#">EPISODIOS</a>
-                    <li>                
+                    <li>
+                        <a href="#">EPISODIOS</a>
+                    </li>
                     <li>
                         <a href="#">NOSOTROS</a>
                     </li>
@@ -28,12 +33,9 @@
                         <a href="#">TÓPICOS</a>
                     </li>
                 </ul>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
-    <figure>
-        <img src="./images/logo.svg" alt="">
-    </figure>
     <main>
         <section class="text-section">
             <h1>Hello <span>world</span> pale blue dot.</h1>
@@ -42,7 +44,22 @@
                 <a href="">CONOCÉ MÁS</a>
             </button>
         </section>
-        <section></section>
+        <section class="episodes-section">
+            <div class="background"></div>
+            <h2>Episodios</h2>
+            <div class="section-iframe">
+                <iframe src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt" width="298" height="100%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+            <div class="section-iframe">
+                <iframe src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby" width="298" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+            <div class="section-iframe">
+                <iframe src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv" width="298" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+            <div class="section-iframe">
+                <iframe src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn" width="298" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div> 
+        </section>
     </main> 
 
     
