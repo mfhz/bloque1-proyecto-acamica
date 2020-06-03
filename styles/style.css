@@ -149,8 +149,28 @@ body main {
     height: 519px;
     position: relative;
     top: -70px; }
-    body main .phone-section figure img {
-      width: 100%; }
+    body main .phone-section figure {
+      height: inherit; }
+      body main .phone-section figure img {
+        width: 100%; }
+  body main .from-section {
+    padding-left: 16px;
+    margin-bottom: 54px;
+    position: relative;
+    top: -70px;
+    margin-top: 27px; }
+    body main .from-section h2 {
+      width: 288px;
+      line-height: 42px;
+      font-size: 36px;
+      font-family: 'IBM Plex Sans';
+      font-weight: normal;
+      margin-bottom: 8px; }
+    body main .from-section p {
+      width: 288px;
+      line-height: 22px;
+      font-size: 14px;
+      color: #060A24 100%; }
 
 @media screen and (min-width: 500px) {
   body header {

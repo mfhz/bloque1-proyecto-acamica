@@ -189,11 +189,37 @@ body {
             top: -70px;
 
             figure {
+                height: inherit;
 
                 img {
                     width: 100%;
                 }
             }
+        }
+
+        .from-section {
+            padding-left: 16px;
+            margin-bottom: 54px;
+            position: relative;
+            top: -70px;
+            margin-top: 27px;
+
+            h2 {
+                width: 288px;
+                line-height: 42px;
+                font-size: 36px;
+                font-family: 'IBM Plex Sans';
+                font-weight: normal;
+                margin-bottom: 8px;
+            }
+
+            p {
+                width: 288px;
+                line-height: 22px;
+                font-size: 14px;
+                color: #060A24 100%;
+            }
+
         }
 
     }
