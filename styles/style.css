@@ -216,6 +216,49 @@ body main {
         font-size: 24px;
         font-family: 'IBM Plex Sans';
         font-weight: 500; }
+    body main .themes-section .box-margin {
+      margin-bottom: 0; }
+  body main .latest-news-section {
+    position: relative;
+    top: -70px;
+    height: 341px;
+    margin-top: 42px; }
+    body main .latest-news-section .background2 {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: inherit;
+      background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+      -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+              clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%); }
+    body main .latest-news-section h2 {
+      width: 288px;
+      line-height: 42px;
+      font-size: 36px;
+      font-family: 'IBM Plex Sans';
+      color: #ffffff;
+      font-weight: normal;
+      text-align: center;
+      position: absolute;
+      top: 64px;
+      margin-left: 16px; }
+    body main .latest-news-section button {
+      width: 288px;
+      background: #00F3BB 100%;
+      position: absolute;
+      top: 226px;
+      margin-left: 16px; }
+      body main .latest-news-section button a {
+        display: block;
+        line-height: 48px;
+        color: #060A24;
+        font-size: 16px;
+        text-decoration: none;
+        font-weight: 500;
+        font-family: 'IBM Plex Mono'; }
+        body main .latest-news-section button a:hover {
+          background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+          color: #ffffff; }
 
 @media screen and (min-width: 500px) {
   body header {
