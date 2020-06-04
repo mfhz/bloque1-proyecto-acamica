@@ -82,7 +82,8 @@ body header {
           text-decoration: none;
           font-family: 'IBM Plex Mono'; }
 body main {
-  margin-top: 29px; }
+  margin-top: 29px;
+  height: 5246.5px; }
   body main .text-section {
     margin-left: 16px; }
     body main .text-section h1 {
@@ -259,6 +260,30 @@ body main {
         body main .latest-news-section button a:hover {
           background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
           color: #ffffff; }
+body footer {
+  height: 121px;
+  padding-top: 24px; }
+  body footer p {
+    width: 227px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #060A24;
+    margin: 0 auto; }
+  body footer div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-top: 16px; }
+    body footer div i {
+      width: 16px;
+      line-height: 28px;
+      margin-right: 38px; }
+    body footer div .rigth-icon {
+      margin: 0;
+      margin-right: 45px; }
 
 @media screen and (min-width: 500px) {
   body header {

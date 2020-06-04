@@ -99,6 +99,7 @@ body {
     }
     main {
         margin-top: 29px;
+        height: 5246.5px;
 
         .text-section {
             margin-left: 16px;
@@ -343,6 +344,36 @@ body {
             }
         }
 
+    }
+    footer {
+        height: 121px;        
+        padding-top: 24px;
+        
+        p {
+            width: 227px;
+            line-height: 22px;
+            font-size: 14px;
+            color: #060A24;
+            margin: 0 auto;
+        }
+
+        div {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 16px;
+
+            i {
+                width: 16px;
+                line-height: 28px;
+                margin-right: 38px;
+
+            }
+
+            .rigth-icon {
+                margin: 0;
+                margin-right: 45px;
+            }
+        }
     }
 
     
