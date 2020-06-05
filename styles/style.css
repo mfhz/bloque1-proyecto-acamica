@@ -355,6 +355,8 @@ body footer {
       padding-top: 186px;
       margin-top: 5px;
       height: 1042.6px; }
+      body main .episodes-section .background {
+        height: 85%; }
       body main .episodes-section h2 {
         width: 209px;
         line-height: 62px;
@@ -372,6 +374,28 @@ body footer {
           body main .episodes-section .container-box-iframe .section-iframe iframe {
             width: 584px; }
         body main .episodes-section .container-box-iframe .unset-rigth {
-          margin-right: 0; } }
+          margin-right: 0; }
+    body main .phone-section {
+      width: 457.6px;
+      height: 600px;
+      left: 200px;
+      top: -165px; }
+      body main .phone-section figure img {
+        height: 100%; }
+    body main .from-section {
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      top: 1495px;
+      right: 256px; }
+      body main .from-section h2 {
+        width: 399px;
+        line-height: 62px;
+        font-size: 48px;
+        margin-bottom: 24px; }
+      body main .from-section p {
+        width: 464px;
+        line-height: 24px;
+        font-size: 16px; } }
 
 /*# sourceMappingURL=style.css.map */

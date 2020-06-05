@@ -501,6 +501,10 @@ body {
                 margin-top: 5px;
                 height: 1042.6px;
 
+                .background {
+                    height: 85%;
+                }
+
                 h2 {
                     width: 209px;
                     line-height: 62px;
@@ -527,6 +531,41 @@ body {
                     .unset-rigth {
                         margin-right: 0;
                     }
+                }
+            }
+
+            .phone-section {
+                width: 457.6px;
+                height: 600px;
+                left: 200px;
+                top: -165px;
+
+                figure {
+
+                    img {
+                        height: 100%;
+                    }
+                }
+            }
+
+            .from-section {
+                margin: 0;
+                padding: 0;
+                position: absolute;
+                top: 1495px;
+                right: 256px;
+
+                h2 {
+                    width: 399px;
+                    line-height: 62px;
+                    font-size: 48px;
+                    margin-bottom: 24px;
+                }
+
+                p {
+                    width: 464px;
+                    line-height: 24px;
+                    font-size: 16px;
                 }
             }
         }
