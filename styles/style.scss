@@ -22,7 +22,7 @@ body {
             .menu {
                 padding-top: 3px;
 
-                input {
+                #checkbox {
                     display: block;
                     width: 20px;
                     height: 20px;
@@ -90,6 +90,10 @@ body {
                             line-height: 28px;
                             text-decoration: none;
                             font-family: 'IBM Plex Mono';
+                            &:hover {
+                                color: #00F3BB;
+                                text-decoration: line-through;
+                            }
                         }
 
                     }
@@ -102,7 +106,7 @@ body {
         height: 5246.5px;
 
         .text-section {
-            margin-left: 16px;
+            padding-left: 16px;
     
             h1 {
                 width: 222px;
@@ -133,7 +137,7 @@ body {
                 a {
                     display: block;
                     line-height: 48px;
-                    color: #060A24 100%;
+                    color: #060A24;
                     font-size: 16px;
                     font-family: 'IBM Plex Mono';
                     text-decoration: none;
@@ -174,12 +178,16 @@ body {
                 position: relative;                      
             }
 
-            .section-iframe {
-                height: 232px;
-                padding-left: 11px;
+            .container-box-iframe {                
                 position: relative;
-                margin-bottom: 11px;
+                
+                .section-iframe {
+                    height: 232px;
+                    padding-left: 11px;
+                    margin-bottom: 11px;
+                }
             }
+
 
         }
 
@@ -407,39 +415,120 @@ body {
 }
 
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 1440px) {
 
     body {
         header {
-            border-bottom: 1px solid #EAEAEB;
-            text-align: right;
-            height: 70px;
-            line-height: 70px;
-    
-            .nav {
-    
-                label {
-                    font-size: 26px;
-                    line-height: 70px;
-                    display: none;
-                }      
-                
-                nav {
-                    display: block;
-                    text-align: right;
-
-                    ul {            
+            height: 80px;
+            padding: 0 100px;
             
-                        li {
-                            display: inline-block;
-                            margin: 0 10px;
-                            line-height: 70px;
-                            border-bottom: none;
-                        }
-                    }            
-                }                
-            }            
+            nav {
 
+                .menu {
+                    padding: 0;
+
+                    #checkbox {
+                        display: none;
+                    }
+
+                    span {
+                        display: none;
+                    }
+
+                    ul {
+                        display: flex;
+                        background: none;
+                        position: unset;
+
+                        li {
+                            margin: 0;
+                            margin-right: 48px;
+
+                            a {
+                                color: #060A24;
+                            }
+                        }
+
+                        .rigth-menu {
+                            margin: 0;
+                        }
+
+                    }
+                }
+            }
+
+        }
+
+        main {
+            margin-top: 120px;
+
+            .text-section {
+                padding-left: 200px;
+                
+                h1 {
+                    width: 770px;
+                    line-height: 84px;
+                    font-size: 64px;
+                    margin: 0;
+                }
+                
+                p {
+                    visibility: hidden;
+                    width: 628px;
+                    height: 48px;
+                    font-size: 16px;
+                    margin-bottom: 56px;
+                    &::before {
+                        content: 'El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.';
+                        visibility: visible;
+                    }
+                }
+
+                button {
+                    width: 226px;
+
+                    a {
+                        line-height: 56px;
+                        font-size: 18px;
+                    }
+                }
+
+
+            }
+
+            .episodes-section {
+                padding-top: 186px;
+                margin-top: 5px;
+                height: 1042.6px;
+
+                h2 {
+                    width: 209px;
+                    line-height: 62px;
+                    margin-left: 200px;
+                    margin-bottom: 26px;
+                    font-size: 48px;
+                }
+
+                .container-box-iframe{
+                    margin: 0 100px;
+                    text-align: center;
+
+                    .section-iframe {
+                        display: inline-block;
+                        padding: 0;
+                        margin-right: 62px;
+                        margin-bottom: 72px;
+                        
+                        iframe {
+                            width: 584px;
+                        }
+                    }
+
+                    .unset-rigth {
+                        margin-right: 0;
+                    }
+                }
+            }
         }
     }  
 }
