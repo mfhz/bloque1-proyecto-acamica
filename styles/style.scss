@@ -568,6 +568,37 @@ body {
                     font-size: 16px;
                 }
             }
+
+            .guests-section {
+                top: -165px;
+                margin-top: 64px;
+
+                h2 {
+                    width: 481px;
+                    line-height: 62px;
+                    font-size: 48px;
+                    margin-left: 200px;
+                    margin-bottom: 36px;
+                }
+
+                .guest-article {
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    figure {
+                        width: 480px;
+                        height: 364px;
+    
+                        img {
+                            width: inherit;
+                            height: inherit;
+                        }
+                        
+                    }
+
+                }
+
+            }
         }
     }  
 }

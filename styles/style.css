@@ -396,6 +396,27 @@ body footer {
       body main .from-section p {
         width: 464px;
         line-height: 24px;
-        font-size: 16px; } }
+        font-size: 16px; }
+    body main .guests-section {
+      top: -165px;
+      margin-top: 64px; }
+      body main .guests-section h2 {
+        width: 481px;
+        line-height: 62px;
+        font-size: 48px;
+        margin-left: 200px;
+        margin-bottom: 36px; }
+      body main .guests-section .guest-article {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+        body main .guests-section .guest-article figure {
+          width: 480px;
+          height: 364px; }
+          body main .guests-section .guest-article figure img {
+            width: inherit;
+            height: inherit; } }
 
 /*# sourceMappingURL=style.css.map */
