@@ -417,10 +417,10 @@ body footer {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap; }
         body main .guests-section .guest-article figure {
-          width: 480px;
+          width: 33.33%;
           height: 364px; }
           body main .guests-section .guest-article figure img {
-            width: inherit;
+            width: 100%;
             height: inherit; }
     body main .themes-section {
       top: -165px;
