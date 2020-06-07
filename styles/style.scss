@@ -338,8 +338,10 @@ body {
 
     }
     footer {
-        height: 121px;        
-        padding-top: 24px;
+        height: 121px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         
         p {
             width: 227px;
@@ -535,6 +537,7 @@ body {
                 figure {
 
                     img {
+                        width: 90%;
                         height: 100%;
                     }
                 }
@@ -657,8 +660,8 @@ body {
         }
 
         footer {
-            display: flex;
             padding: 0;
+            flex-direction: row;
             justify-content: space-around;
             align-items: center;
 
