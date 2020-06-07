@@ -461,6 +461,7 @@ body {
 
         main {
             margin-top: 120px;
+            height: 3561px;
 
             .text-section {
                 padding-left: 200px;
@@ -630,6 +631,40 @@ body {
                     }
                 }
 
+            }
+
+            .latest-news-section {
+                top: -165px;
+                margin-top: 34px;
+                height: 518px;
+
+                .background2 {
+                    clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%); 
+                }
+
+                h2 {
+                    width: 692px;
+                    line-height: 62px;
+                    margin-left: 0;
+                    margin-top: 213px;
+                    top: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+
+                button {
+                    top: 0;
+                    width: 345px;
+                    margin-left: 0;
+                    margin-top: 311px;
+                    left: 50%;
+                    transform: translateX(-50%);
+
+                    a {
+                        line-height: 56px;
+                        font-size: 18px;
+                    }
+                }
             }
         }
     }  
