@@ -599,6 +599,38 @@ body {
                 }
 
             }
+
+            .themes-section {
+                top: -165px;
+                margin-top: 64px;
+
+                h2 {
+                    width: 586px;
+                    line-height: 62px;
+                    font-size: 48px;
+                    margin-left: 200px;
+                    margin-bottom: 56px;
+                }
+
+                .article-themes {
+                    display: flex;
+                    justify-content: center;
+
+                    .box-themes {
+                        margin: 0;
+
+                        figure {
+                            padding: 13px 78px;
+                        }
+
+                        h3 {
+                            width: 220px;
+                            margin-top: 16px;
+                        }
+                    }
+                }
+
+            }
         }
     }  
 }

@@ -417,6 +417,29 @@ body footer {
           height: 364px; }
           body main .guests-section .guest-article figure img {
             width: inherit;
-            height: inherit; } }
+            height: inherit; }
+    body main .themes-section {
+      top: -165px;
+      margin-top: 64px; }
+      body main .themes-section h2 {
+        width: 586px;
+        line-height: 62px;
+        font-size: 48px;
+        margin-left: 200px;
+        margin-bottom: 56px; }
+      body main .themes-section .article-themes {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+        body main .themes-section .article-themes .box-themes {
+          margin: 0; }
+          body main .themes-section .article-themes .box-themes figure {
+            padding: 13px 78px; }
+          body main .themes-section .article-themes .box-themes h3 {
+            width: 220px;
+            margin-top: 16px; } }
 
 /*# sourceMappingURL=style.css.map */
