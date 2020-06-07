@@ -155,17 +155,8 @@ body {
             margin-top: 24px;            
             height: 1203.5px;
             padding-top: 64px;
-            position: relative;
-            
-            .background {                
-                position: absolute;
-                top: 0;
-                width: 100%;
-                height: inherit;
-                background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-                transform: skewY(-6deg);
-                transform-origin: top right;
-            }
+            background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+            clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
 
             h2 {
                 margin-left: 16px;
@@ -305,15 +296,8 @@ body {
             top: -70px;
             height: 341px;
             margin-top: 42px;
-
-            .background2 {
-                position: absolute;
-                top: 0;
-                width: 100%;
-                height: inherit;
-                background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-                clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);                
-            }
+            background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+            clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
 
             h2 {
                 width: 288px;
@@ -511,10 +495,7 @@ body {
                 padding-top: 186px;
                 margin-top: 5px;
                 height: 1042.6px;
-
-                .background {
-                    height: 85%;
-                }
+                clip-path: polygon(0 12%, 100% 0, 100% 88%, 0 100%);
 
                 h2 {
                     width: 209px;
@@ -647,10 +628,7 @@ body {
                 top: -165px;
                 margin-top: 34px;
                 height: 518px;
-
-                .background2 {
-                    clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%); 
-                }
+                clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
 
                 h2 {
                     width: 692px;

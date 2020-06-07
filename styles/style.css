@@ -124,17 +124,9 @@ body main {
     margin-top: 24px;
     height: 1203.5px;
     padding-top: 64px;
-    position: relative; }
-    body main .episodes-section .background {
-      position: absolute;
-      top: 0;
-      width: 100%;
-      height: inherit;
-      background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-      -webkit-transform: skewY(-6deg);
-              transform: skewY(-6deg);
-      -webkit-transform-origin: top right;
-              transform-origin: top right; }
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    -webkit-clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
+            clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%); }
     body main .episodes-section h2 {
       margin-left: 16px;
       font-size: 36px;
@@ -228,15 +220,10 @@ body main {
     position: relative;
     top: -70px;
     height: 341px;
-    margin-top: 42px; }
-    body main .latest-news-section .background2 {
-      position: absolute;
-      top: 0;
-      width: 100%;
-      height: inherit;
-      background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-      -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
-              clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%); }
+    margin-top: 42px;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%); }
     body main .latest-news-section h2 {
       width: 288px;
       line-height: 42px;
@@ -361,9 +348,9 @@ body footer {
     body main .episodes-section {
       padding-top: 186px;
       margin-top: 5px;
-      height: 1042.6px; }
-      body main .episodes-section .background {
-        height: 85%; }
+      height: 1042.6px;
+      -webkit-clip-path: polygon(0 12%, 100% 0, 100% 88%, 0 100%);
+              clip-path: polygon(0 12%, 100% 0, 100% 88%, 0 100%); }
       body main .episodes-section h2 {
         width: 209px;
         line-height: 62px;
@@ -451,10 +438,9 @@ body footer {
     body main .latest-news-section {
       top: -165px;
       margin-top: 34px;
-      height: 518px; }
-      body main .latest-news-section .background2 {
-        -webkit-clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
-                clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%); }
+      height: 518px;
+      -webkit-clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
+              clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%); }
       body main .latest-news-section h2 {
         width: 692px;
         line-height: 62px;
