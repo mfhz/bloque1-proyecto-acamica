@@ -421,6 +421,15 @@ body {
         header {
             height: 80px;
             padding: 0 100px;
+
+            figure {
+                width: 36px;
+                height: 36px;
+
+                img {
+                    width: 100%;
+                }
+            }
             
             nav {
 
@@ -441,6 +450,7 @@ body {
                         position: unset;
 
                         li {
+                            width: 87px;
                             margin: 0;
                             margin-right: 48px;
 
