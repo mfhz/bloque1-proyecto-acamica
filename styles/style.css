@@ -132,12 +132,12 @@ body main {
       font-weight: normal;
       margin-bottom: 21px;
       position: relative; }
-    body main .episodes-section .container-box-iframe {
-      position: relative; }
-      body main .episodes-section .container-box-iframe .section-iframe {
-        height: 232px;
-        padding: 0 11px;
-        margin-bottom: 11px; }
+    body main .episodes-section .container-box-iframe .section-iframe {
+      height: 232px;
+      padding: 0 11px;
+      margin-bottom: 11px; }
+      body main .episodes-section .container-box-iframe .section-iframe iframe {
+        height: inherit; }
   body main .phone-section {
     width: 100%;
     height: 445px;

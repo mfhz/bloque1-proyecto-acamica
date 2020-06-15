@@ -167,13 +167,16 @@ body {
                 position: relative;                      
             }
 
-            .container-box-iframe {                
-                position: relative;
+            .container-box-iframe {
                 
                 .section-iframe {
                     height: 232px;
                     padding: 0 11px;
                     margin-bottom: 11px;
+
+                    iframe {
+                        height: inherit;
+                    }
                 }
             }
 
