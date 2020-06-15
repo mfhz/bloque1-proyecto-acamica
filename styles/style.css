@@ -21,70 +21,68 @@ body header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  body header nav .menu {
-    padding-top: 3px; }
-    body header nav .menu #checkbox {
+  body header nav .menu #checkbox {
+    display: block;
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+    z-index: 2;
+    position: absolute;
+    margin-right: 12px;
+    /*movimiento a cruz*/ }
+    body header nav .menu #checkbox[type="checkbox"]:checked ~ ul {
       display: block;
-      width: 20px;
-      height: 20px;
+      height: 224px;
+      padding-top: 16px;
+      padding-left: 16px; }
+    body header nav .menu #checkbox:checked ~ span {
+      opacity: 1;
+      -webkit-transform: rotate(45deg) translate(2px, 1px);
+              transform: rotate(45deg) translate(2px, 1px); }
+    body header nav .menu #checkbox:checked ~ span:nth-last-child(3) {
       opacity: 0;
-      z-index: 2;
-      position: absolute;
-      margin-right: 12px;
-      /*movimiento a cruz*/ }
-      body header nav .menu #checkbox[type="checkbox"]:checked ~ ul {
-        display: block;
-        height: 224px;
-        padding-top: 16px;
-        padding-left: 16px; }
-      body header nav .menu #checkbox:checked ~ span {
-        opacity: 1;
-        -webkit-transform: rotate(45deg) translate(2px, 1px);
-                transform: rotate(45deg) translate(2px, 1px); }
-      body header nav .menu #checkbox:checked ~ span:nth-last-child(3) {
-        opacity: 0;
-        -webkit-transform: rotate(0deg) scale(0.2, 0.2);
-                transform: rotate(0deg) scale(0.2, 0.2); }
-      body header nav .menu #checkbox:checked ~ span:nth-last-child(2) {
-        -webkit-transform: rotate(-45deg) translate(1px, 0px);
-                transform: rotate(-45deg) translate(1px, 0px); }
-    body header nav .menu span {
+      -webkit-transform: rotate(0deg) scale(0.2, 0.2);
+              transform: rotate(0deg) scale(0.2, 0.2); }
+    body header nav .menu #checkbox:checked ~ span:nth-last-child(2) {
+      -webkit-transform: rotate(-45deg) translate(1px, 0px);
+              transform: rotate(-45deg) translate(1px, 0px); }
+  body header nav .menu span {
+    display: block;
+    width: 19.23px;
+    height: 2px;
+    margin-bottom: 5px;
+    position: relative;
+    background: #000000;
+    z-index: 1;
+    -webkit-transform-origin: 3px 0px;
+            transform-origin: 3px 0px;
+    margin-right: 12px; }
+    body header nav .menu span:first-child {
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%; }
+    body header nav .menu span:nth-last-child(2) {
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%; }
+  body header nav .menu ul {
+    position: absolute;
+    top: 44px;
+    left: 0;
+    width: 100%;
+    background: #0000EC 100%;
+    display: none; }
+    body header nav .menu ul li {
       display: block;
-      width: 18px;
-      height: 2px;
-      margin-bottom: 5px;
-      position: relative;
-      background: #000000;
-      z-index: 1;
-      -webkit-transform-origin: 3px 0px;
-              transform-origin: 3px 0px;
-      margin-right: 12px; }
-      body header nav .menu span:first-child {
-        -webkit-transform-origin: 0% 0%;
-                transform-origin: 0% 0%; }
-      body header nav .menu span:nth-last-child(2) {
-        -webkit-transform-origin: 0% 100%;
-                transform-origin: 0% 100%; }
-    body header nav .menu ul {
-      position: absolute;
-      top: 44px;
-      left: 0;
       width: 100%;
-      background: #0000EC 100%;
-      display: none; }
-      body header nav .menu ul li {
+      margin-bottom: 24px; }
+      body header nav .menu ul li a {
         display: block;
         width: 100%;
-        margin-bottom: 24px; }
-        body header nav .menu ul li a {
-          display: block;
-          width: 100%;
-          color: #FFFFFF;
-          line-height: 28px;
-          text-decoration: none; }
-          body header nav .menu ul li a:hover {
-            color: #00F3BB;
-            text-decoration: line-through; }
+        color: #FFFFFF;
+        line-height: 28px;
+        text-decoration: none; }
+        body header nav .menu ul li a:hover {
+          color: #00F3BB;
+          text-decoration: line-through; }
 body main {
   margin-top: 29px; }
   body main .text-section {
