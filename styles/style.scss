@@ -406,13 +406,11 @@ body {
 
         main {
             margin-top: 120px;
-            height: 3561px;
 
             .text-section {
                 padding-left: 200px;
                 
                 h1 {
-                    width: 770px;
                     line-height: 84px;
                     font-size: $font-size-title-principal;
                     margin: 0;
@@ -449,7 +447,6 @@ body {
                 clip-path: polygon(0 12%, 100% 0, 100% 88%, 0 100%);
 
                 h2 {
-                    width: 209px;
                     line-height: 62px;
                     margin-left: 200px;
                     margin-bottom: 26px;
@@ -479,15 +476,16 @@ body {
 
             .phone-section {
                 width: 457.6px;
-                height: 600px;
-                left: 200px;
-                top: -165px;
+                height: 470px;
+                margin-left: 200px;
 
                 figure {
+                    height: 630px;
+                    top: -160px;
 
                     img {
-                        width: 90%;
-                        height: 100%;
+                        width: 85%;
+                        height: inherit;
                     }
                 }
             }
@@ -496,11 +494,10 @@ body {
                 margin: 0;
                 padding: 0;
                 position: absolute;
-                top: 1495px;
+                top: 1510px;
                 right: 256px;
 
                 h2 {
-                    width: 399px;
                     line-height: 62px;
                     font-size: $font-size-title-desktop;
                     margin-bottom: 24px;
@@ -514,11 +511,9 @@ body {
             }
 
             .guests-section {
-                top: -165px;
                 margin-top: 64px;
 
                 h2 {
-                    width: 481px;
                     line-height: 62px;
                     font-size: $font-size-title-desktop;
                     margin-left: 200px;
@@ -545,11 +540,9 @@ body {
             }
 
             .themes-section {
-                top: -165px;
                 margin-top: 64px;
 
                 h2 {
-                    width: 586px;
                     line-height: 62px;
                     font-size: $font-size-title-desktop;
                     margin-left: 200px;
@@ -562,14 +555,16 @@ body {
 
                     .box-themes {
                         margin: 0;
+                        width: 260px;
+                        text-align: center;
 
                         figure {
-                            padding: 13px 78px;
+                            padding: 13px 0;
                         }
 
                         h3 {
-                            width: 220px;
                             margin-top: 16px;
+                            padding: 0 7px;
                         }
                     }
                 }
@@ -577,29 +572,20 @@ body {
             }
 
             .latest-news-section {
-                top: -165px;
                 margin-top: 34px;
                 height: 518px;
                 clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
+                padding-top: 213px;
+                text-align: center;
 
                 h2 {
-                    width: 692px;
                     line-height: 62px;
-                    margin-left: 0;
-                    margin-top: 213px;
-                    top: 0;
-                    left: 50%;
-                    transform: translateX(-50%);
+                    margin: 0;
                     font-size: $font-size-title-desktop;
                 }
 
                 button {
-                    top: 0;
                     width: 345px;
-                    margin-left: 0;
-                    margin-top: 311px;
-                    left: 50%;
-                    transform: translateX(-50%);
 
                     a {
                         line-height: 56px;
@@ -610,18 +596,21 @@ body {
         }
 
         footer {
-            padding: 0;
+            height: 95px;
             flex-direction: row;
-            justify-content: space-around;
+            justify-content: space-between;
             align-items: center;
+            padding: 0 100PX;
 
             p {
                 width: 269px;
+                line-height: 28px;
                 font-size: unset;
                 margin: 0;
             }
 
             div {
+                margin-top: 0;
 
                 a {
                     margin-right: 36px;
