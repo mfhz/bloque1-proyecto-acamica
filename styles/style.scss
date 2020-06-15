@@ -130,23 +130,20 @@ body {
                 font-size: $font-size-text-mobile;
             }
 
-            button {
+            a {                
+                display: block;
                 width: 100%;
+                line-height: 48px;                    
                 background: $background-button 100%;
-
-                a {
-                    display: block;
-                    line-height: 48px;
-                    font-size: $font-size-text-button-mobile;
-                    text-decoration: none;
-                    font-weight: 500;
-                    &:hover {
-                        background-image: $background-button-hover;
-                        color: $color-text-second;
-                    }
+                font-size: $font-size-text-button-mobile;
+                font-weight: 500;
+                text-align: center;
+                text-decoration: none;
+                &:hover {
+                    background-image: $background-button-hover;
+                    color: $color-text-second;
                 }
-            }
-    
+            }    
         }
 
         .episodes-section {
@@ -294,23 +291,20 @@ body {
                 margin-left: 16px;
             }
 
-            button {
+            a {                
+                display: block;
                 width: 100%;
+                line-height: 48px; 
+                margin-top: 36px;                   
                 background: $background-button 100%;
-                margin-top: 36px;
-
-                a {
-                    display: block;
-                    line-height: 48px;
-                    font-size: $font-size-text-button-mobile;
-                    text-decoration: none;
-                    font-weight: 500;
-                    &:hover {
-                        background-image: $background-button-hover;
-                        color: $color-text-second;
-                    }
+                font-size: $font-size-text-button-mobile;
+                font-weight: 500;
+                text-align: center;
+                text-decoration: none;
+                &:hover {
+                    background-image: $background-button-hover;
+                    color: $color-text-second;
                 }
-
             }
         }
 
@@ -431,14 +425,11 @@ body {
                     }
                 }
 
-                button {
-                    width: 226px;
-
-                    a {
-                        line-height: 56px;
-                        font-size: $font-size-text-button-desktop;
-                    }
-                }
+                a {                
+                    width: 226px;                  
+                    line-height: 56px;
+                    font-size: $font-size-text-button-desktop;
+                } 
 
 
             }
@@ -587,13 +578,11 @@ body {
                     font-size: $font-size-title-desktop;
                 }
 
-                button {
+                a {                
                     width: 345px;
-
-                    a {
-                        line-height: 56px;
-                        font-size: $font-size-text-button-desktop;
-                    }
+                    line-height: 56px;
+                    font-size: $font-size-text-button-desktop;
+                    margin: 36px auto 0 auto; 
                 }
             }
         }

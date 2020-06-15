@@ -104,18 +104,18 @@ body main {
       height: 66px;
       margin-bottom: 36px;
       font-size: 14px; }
-    body main .text-section button {
+    body main .text-section a {
+      display: block;
       width: 100%;
-      background: #00F3BB 100%; }
-      body main .text-section button a {
-        display: block;
-        line-height: 48px;
-        font-size: 16px;
-        text-decoration: none;
-        font-weight: 500; }
-        body main .text-section button a:hover {
-          background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
-          color: #FFFFFF; }
+      line-height: 48px;
+      background: #00F3BB 100%;
+      font-size: 16px;
+      font-weight: 500;
+      text-align: center;
+      text-decoration: none; }
+      body main .text-section a:hover {
+        background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+        color: #FFFFFF; }
   body main .episodes-section {
     margin-top: 24px;
     height: 1203.5px;
@@ -213,19 +213,19 @@ body main {
       font-weight: normal;
       text-align: center;
       margin-left: 16px; }
-    body main .latest-news-section button {
+    body main .latest-news-section a {
+      display: block;
       width: 100%;
+      line-height: 48px;
+      margin-top: 36px;
       background: #00F3BB 100%;
-      margin-top: 36px; }
-      body main .latest-news-section button a {
-        display: block;
-        line-height: 48px;
-        font-size: 16px;
-        text-decoration: none;
-        font-weight: 500; }
-        body main .latest-news-section button a:hover {
-          background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
-          color: #FFFFFF; }
+      font-size: 16px;
+      font-weight: 500;
+      text-align: center;
+      text-decoration: none; }
+      body main .latest-news-section a:hover {
+        background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+        color: #FFFFFF; }
 body footer {
   height: 121px;
   display: -webkit-box;
@@ -304,11 +304,10 @@ body footer {
         body main .text-section p::before {
           content: 'El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.';
           visibility: visible; }
-      body main .text-section button {
-        width: 226px; }
-        body main .text-section button a {
-          line-height: 56px;
-          font-size: 18px; }
+      body main .text-section a {
+        width: 226px;
+        line-height: 56px;
+        font-size: 18px; }
     body main .episodes-section {
       padding-top: 186px;
       margin-top: 5px;
@@ -409,11 +408,11 @@ body footer {
         line-height: 62px;
         margin: 0;
         font-size: 48px; }
-      body main .latest-news-section button {
-        width: 345px; }
-        body main .latest-news-section button a {
-          line-height: 56px;
-          font-size: 18px; }
+      body main .latest-news-section a {
+        width: 345px;
+        line-height: 56px;
+        font-size: 18px;
+        margin: 36px auto 0 auto; }
   body footer {
     height: 95px;
     -webkit-box-orient: horizontal;
