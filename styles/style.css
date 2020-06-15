@@ -5,7 +5,8 @@
   border: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'IBM Plex Mono', monospace; }
+  font-family: "IBM Plex Mono";
+  color: #060A24; }
 
 body header {
   display: -webkit-box;
@@ -53,7 +54,7 @@ body header {
       height: 2px;
       margin-bottom: 5px;
       position: relative;
-      background: #000;
+      background: #000000;
       z-index: 1;
       -webkit-transform-origin: 3px 0px;
               transform-origin: 3px 0px;
@@ -78,10 +79,9 @@ body header {
         body header nav .menu ul li a {
           display: block;
           width: 100%;
-          color: #ffffff;
+          color: #FFFFFF;
           line-height: 28px;
-          text-decoration: none;
-          font-family: 'IBM Plex Mono'; }
+          text-decoration: none; }
           body header nav .menu ul li a:hover {
             color: #00F3BB;
             text-decoration: line-through; }
@@ -94,17 +94,16 @@ body main {
       width: 222px;
       line-height: 42px;
       font-size: 36px;
-      font-family: 'IBM Plex Sans';
+      font-family: "IBM Plex Sans";
       font-weight: normal;
       margin-bottom: 16px; }
       body main .text-section h1 span {
-        text-decoration: line-through; }
+        text-decoration: line-through;
+        font-family: "IBM Plex Sans"; }
     body main .text-section p {
       width: 288px;
       height: 66px;
       margin-bottom: 36px;
-      font-family: 'IBM Plex Mono';
-      color: #060A24 100%;
       font-size: 14px; }
     body main .text-section button {
       width: 288px;
@@ -112,14 +111,12 @@ body main {
       body main .text-section button a {
         display: block;
         line-height: 48px;
-        color: #060A24;
         font-size: 16px;
-        font-family: 'IBM Plex Mono';
         text-decoration: none;
         font-weight: 500; }
         body main .text-section button a:hover {
           background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
-          color: #ffffff; }
+          color: #FFFFFF; }
   body main .episodes-section {
     margin-top: 24px;
     height: 1203.5px;
@@ -130,8 +127,8 @@ body main {
     body main .episodes-section h2 {
       margin-left: 16px;
       font-size: 36px;
-      color: #ffffff;
-      font-family: 'IBM Plex Sans';
+      color: #FFFFFF;
+      font-family: "IBM Plex Sans";
       line-height: 42px;
       font-weight: normal;
       margin-bottom: 21px;
@@ -161,14 +158,13 @@ body main {
       width: 288px;
       line-height: 42px;
       font-size: 36px;
-      font-family: 'IBM Plex Sans';
+      font-family: "IBM Plex Sans";
       font-weight: normal;
       margin-bottom: 8px; }
     body main .from-section p {
       width: 288px;
       line-height: 22px;
-      font-size: 14px;
-      color: #060A24 100%; }
+      font-size: 14px; }
   body main .guests-section {
     position: relative;
     top: -70px; }
@@ -176,7 +172,7 @@ body main {
       width: 288px;
       line-height: 42px;
       font-size: 36px;
-      font-family: 'IBM Plex Sans';
+      font-family: "IBM Plex Sans";
       font-weight: normal;
       margin-left: 16px;
       margin-bottom: 14px; }
@@ -193,7 +189,7 @@ body main {
       width: 288px;
       line-height: 42px;
       font-size: 36px;
-      font-family: 'IBM Plex Sans';
+      font-family: "IBM Plex Sans";
       font-weight: normal;
       margin-left: 16px; }
     body main .themes-section .box-themes {
@@ -212,8 +208,8 @@ body main {
         margin: 0 auto;
         text-align: center;
         font-size: 24px;
-        font-family: 'IBM Plex Sans';
-        font-weight: 500; }
+        font-family: "IBM Plex Sans";
+        font-weight: 600; }
     body main .themes-section .box-margin {
       margin-bottom: 0; }
   body main .latest-news-section {
@@ -228,8 +224,8 @@ body main {
       width: 288px;
       line-height: 42px;
       font-size: 36px;
-      font-family: 'IBM Plex Sans';
-      color: #ffffff;
+      font-family: "IBM Plex Sans";
+      color: #FFFFFF;
       font-weight: normal;
       text-align: center;
       position: absolute;
@@ -244,14 +240,12 @@ body main {
       body main .latest-news-section button a {
         display: block;
         line-height: 48px;
-        color: #060A24;
         font-size: 16px;
         text-decoration: none;
-        font-weight: 500;
-        font-family: 'IBM Plex Mono'; }
+        font-weight: 500; }
         body main .latest-news-section button a:hover {
           background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
-          color: #ffffff; }
+          color: #FFFFFF; }
 body footer {
   height: 121px;
   display: -webkit-box;
@@ -268,7 +262,6 @@ body footer {
     width: 227px;
     line-height: 22px;
     font-size: 14px;
-    color: #060A24;
     margin: 0 auto; }
   body footer div {
     display: -webkit-box;
@@ -280,7 +273,7 @@ body footer {
     margin-top: 16px; }
     body footer div a {
       margin-right: 38px;
-      color: #000; }
+      color: #060A24; }
       body footer div a i {
         line-height: 28px !important; }
     body footer div .rigth-icon {
@@ -328,7 +321,7 @@ body footer {
         visibility: hidden;
         width: 628px;
         height: 48px;
-        font-size: 16px;
+        font-size: unset;
         margin-bottom: 56px; }
         body main .text-section p::before {
           content: 'El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.';
@@ -384,7 +377,7 @@ body footer {
       body main .from-section p {
         width: 464px;
         line-height: 24px;
-        font-size: 16px; }
+        font-size: unset; }
     body main .guests-section {
       top: -165px;
       margin-top: 64px; }
@@ -443,7 +436,8 @@ body footer {
         top: 0;
         left: 50%;
         -webkit-transform: translateX(-50%);
-                transform: translateX(-50%); }
+                transform: translateX(-50%);
+        font-size: 48px; }
       body main .latest-news-section button {
         top: 0;
         width: 345px;
@@ -468,7 +462,7 @@ body footer {
             align-items: center; }
     body footer p {
       width: 269px;
-      font-size: 16px;
+      font-size: unset;
       margin: 0; }
     body footer div a {
       margin-right: 36px; }
