@@ -86,12 +86,11 @@ body header {
             color: #00F3BB;
             text-decoration: line-through; }
 body main {
-  margin-top: 29px;
-  height: 5246.5px; }
+  margin-top: 29px; }
   body main .text-section {
-    padding-left: 16px; }
+    padding: 0 16px; }
     body main .text-section h1 {
-      width: 222px;
+      width: 100%;
       line-height: 42px;
       font-size: 36px;
       font-family: "IBM Plex Sans";
@@ -101,12 +100,12 @@ body main {
         text-decoration: line-through;
         font-family: "IBM Plex Sans"; }
     body main .text-section p {
-      width: 288px;
+      width: 100%;
       height: 66px;
       margin-bottom: 36px;
       font-size: 14px; }
     body main .text-section button {
-      width: 288px;
+      width: 100%;
       background: #00F3BB 100%; }
       body main .text-section button a {
         display: block;
@@ -137,56 +136,48 @@ body main {
       position: relative; }
       body main .episodes-section .container-box-iframe .section-iframe {
         height: 232px;
-        padding-left: 11px;
+        padding: 0 11px;
         margin-bottom: 11px; }
   body main .phone-section {
     width: 100%;
-    height: 519px;
-    position: relative;
-    top: -70px; }
+    height: 445px;
+    text-align: center; }
     body main .phone-section figure {
-      height: inherit; }
+      height: inherit;
+      position: relative;
+      top: -70px; }
       body main .phone-section figure img {
-        width: 100%; }
+        width: 100%;
+        height: 500px; }
   body main .from-section {
-    padding-left: 16px;
+    padding: 0 16px;
     margin-bottom: 54px;
-    position: relative;
-    top: -70px;
     margin-top: 27px; }
     body main .from-section h2 {
-      width: 288px;
       line-height: 42px;
       font-size: 36px;
       font-family: "IBM Plex Sans";
       font-weight: normal;
       margin-bottom: 8px; }
     body main .from-section p {
-      width: 288px;
       line-height: 22px;
       font-size: 14px; }
-  body main .guests-section {
-    position: relative;
-    top: -70px; }
-    body main .guests-section h2 {
-      width: 288px;
-      line-height: 42px;
-      font-size: 36px;
-      font-family: "IBM Plex Sans";
-      font-weight: normal;
-      margin-left: 16px;
-      margin-bottom: 14px; }
-    body main .guests-section figure {
-      width: 100%;
+  body main .guests-section h2 {
+    line-height: 42px;
+    font-size: 36px;
+    font-family: "IBM Plex Sans";
+    font-weight: normal;
+    margin-left: 16px;
+    margin-bottom: 14px; }
+  body main .guests-section figure {
+    width: 100%;
+    height: 243px; }
+    body main .guests-section figure img {
+      width: inherit;
       height: 243px; }
-      body main .guests-section figure img {
-        width: inherit; }
   body main .themes-section {
-    position: relative;
-    top: -70px;
     margin-top: 48px; }
     body main .themes-section h2 {
-      width: 288px;
       line-height: 42px;
       font-size: 36px;
       font-family: "IBM Plex Sans";
@@ -199,13 +190,8 @@ body main {
         width: 100%;
         height: 130px;
         padding: 13px 108px; }
-        body main .themes-section .box-themes figure img {
-          width: 104px;
-          height: 104px; }
       body main .themes-section .box-themes h3 {
-        width: 288px;
         line-height: 32px;
-        margin: 0 auto;
         text-align: center;
         font-size: 24px;
         font-family: "IBM Plex Sans";
@@ -213,30 +199,24 @@ body main {
     body main .themes-section .box-margin {
       margin-bottom: 0; }
   body main .latest-news-section {
-    position: relative;
-    top: -70px;
     height: 341px;
     margin-top: 42px;
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
-            clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%); }
+            clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+    padding: 64px 16px 0 16px; }
     body main .latest-news-section h2 {
-      width: 288px;
       line-height: 42px;
       font-size: 36px;
       font-family: "IBM Plex Sans";
       color: #FFFFFF;
       font-weight: normal;
       text-align: center;
-      position: absolute;
-      top: 64px;
       margin-left: 16px; }
     body main .latest-news-section button {
-      width: 288px;
+      width: 100%;
       background: #00F3BB 100%;
-      position: absolute;
-      top: 226px;
-      margin-left: 16px; }
+      margin-top: 36px; }
       body main .latest-news-section button a {
         display: block;
         line-height: 48px;
