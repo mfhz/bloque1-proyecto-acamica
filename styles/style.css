@@ -94,7 +94,7 @@ body main {
       font-family: "IBM Plex Sans";
       font-weight: normal;
       margin-bottom: 16px; }
-      body main .text-section h1 span {
+      body main .text-section h1 .line-through {
         text-decoration: line-through;
         font-family: "IBM Plex Sans"; }
     body main .text-section p {
@@ -293,6 +293,8 @@ body footer {
         line-height: 84px;
         font-size: 64px;
         margin: 0; }
+        body main .text-section h1 .point {
+          color: #0000EC; }
       body main .text-section p {
         visibility: hidden;
         width: 628px;

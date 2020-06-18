@@ -116,7 +116,7 @@ body {
                 font-weight: normal;
                 margin-bottom: 16px;
 
-                span {
+                .line-through {
                     text-decoration: line-through;
                     font-family: $font-second;
                 }
@@ -410,6 +410,10 @@ body {
                     line-height: 84px;
                     font-size: $font-size-title-principal;
                     margin: 0;
+                    
+                    .point {
+                        color: $background-color-menu;
+                    }
                 }
                 
                 p {
