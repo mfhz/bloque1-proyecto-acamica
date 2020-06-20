@@ -1,0 +1,45 @@
+@media screen and (min-width: 1440px) {
+
+    body {
+
+        main {
+
+            .episodes-section {
+
+                .container-box-iframe{
+                    margin: 0 100px;
+
+                    .section-iframe {
+                        margin-right: 62px;
+                        
+                        iframe {
+                            width: 584px;
+                        }
+                    }
+
+                    .unset-rigth {
+                        margin-right: 0;
+                    }
+                }
+            }
+
+            .phone-section {
+                margin-left: 200px;
+            }
+
+            .from-section {
+                right: 256px;
+            }
+
+            .guests-section {
+
+                .guest-article {
+
+                    figure {
+                        height: 364px;                        
+                    }
+                }
+            }
+        }
+    }  
+}
