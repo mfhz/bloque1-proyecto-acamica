@@ -164,6 +164,7 @@ body {
             }
 
             .container-box-iframe {
+                text-align: center;
                 
                 .section-iframe {
                     height: 232px;
@@ -254,9 +255,10 @@ body {
                 margin-bottom: 36px;
 
                 figure {
+                    text-align: center;
                     width: 100%;
                     height: 130px;
-                    padding: 13px 108px;
+                    padding: 13px 0;
                 }
 
                 h3 {
